@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contain {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #110787;
+    color: white;
+    padding: 5px 0;
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+    width: auto;
+    height: 100px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #110787;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
+
+main {
+    max-width: 960px;
+    margin: auto;
+    display: block;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+    .nav-link:hover {
+        color: #0056b3;
+    }
+
+aside {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.links h1 {
+    margin-bottom: 15px;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #91a2fa;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+    .form h2 {
+        margin-bottom: 15px;
+    }
+
+.form-group label {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    aside.col-md-3 {
+        display: none;
+    }
+}
